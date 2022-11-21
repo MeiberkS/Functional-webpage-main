@@ -1,0 +1,24 @@
+{
+  "name": "functional-webpage",
+  "version": "1.0.0",
+  "description": "This webpage will have basic front and back end functionality. The ability to view the UI, log into an account, store info, and come back to that info after you have signed out and signed back in. (no other user should be able to access your info)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dolph9/Functional-webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dolph9/Functional-webpage/issues"
+  },
+  "homepage": "https://github.com/Dolph9/Functional-webpage#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "vanilla-tilt": "^1.7.2"
+  }
+}

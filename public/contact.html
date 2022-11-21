@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburger.menu.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary
+    d-flex justify-content-between " style="position: fixed; top: 0; width: 100%; margin-bottom: 30px;">
+        <div class="pe-5 d-flex flex-row">
+            <ul style="list-style: none;">
+                <li class=""><a class="link-dark" style="text-decoration: none;" href="/index.html">
+                    Home</a></li>
+            </ul>
+            <ul style="list-style: none;">
+                <li class=""><a class="link-dark" style="text-decoration: none;"
+                    type="text/html" href="/about.html">
+                    About</a></li>
+            </ul>
+        </div>
+        
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box" style="list-style: none;">
+                <li class="menu__top"> Menu </li>
+                <li><a class="menu__item" href="#">Sign In</a></li>
+                <li><a class="menu__item" href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="form-group pt-5 d-flex justify-content-center" style="align-items: center; flex-direction: column;">
+        <form style="margin-top: 70px;">
+            <div style="text-align: center;"><h2>CONTACT US</h2></div>
+            <div class="form-group"> 
+                <ul style="list-style: none; text-align: center;">
+                    <li><label for="Name" class="form-label mt-4">Name</label></li>
+                    <li><input type="text" class="form-control" id="name" placeholder=""></li> 
+                </ul>
+            </div>
+            <div class="form-group">
+                <ul style="list-style: none; text-align: center;">
+                    <li><label for="email1" class="form-label mt-4">Email address</label></li>
+                    <li><input class="form-control" type="email" id="email" placeholder=""></li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <ul style="list-style: none; text-align: center;">
+                    <li><label for="subject" class="form-label mt-4">Subject</label></li>
+                    <li><input class="form-control" type="text" id="subject" placeholder=""></li>
+                </ul>
+                
+            </div>
+            <div class="form-group">
+                <ul style="list-style: none; text-align: center;">
+                    <li><label for="message" class="form-label mt-4">Message</label></li>
+                    <li><textarea class="form-control" id="message" placeholder="" cols="20" rows="10"></textarea></li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <ul style="list-style: none; text-align: center;">
+                    <li><input class="form-control" type="submit" class="submit" value="Send Message"></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
